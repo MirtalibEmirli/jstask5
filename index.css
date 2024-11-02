@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#container{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ background-color: rgb(73, 141, 141);
+ padding: 10px 10px;
+}
+#users{
+  list-style: none;
+
+}
+li{
+ text-align:justify;
+ 
+ }
+ #users :hover{
+  color: red;
+
+ }
